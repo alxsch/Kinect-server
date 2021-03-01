@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM balenalib/rpi-raspbian
 
 RUN apt-get update \
   && apt-get install -y git cmake build-essential libusb-1.0-0-dev libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev \
